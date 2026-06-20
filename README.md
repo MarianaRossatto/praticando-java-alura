@@ -1,47 +1,22 @@
-# praticando-java-alura
+## ☕ Praticando Java - Alura
 
-Repositório com exercícios desenvolvidos durante a série de cursos "Praticando Java" da Alura. O objetivo é registrar estudos e práticas em Java — não se trata de um único projeto ou aplicação completa, mas de várias atividades organizadas por curso.
+Este repositório reúne as soluções de 50 atividades práticas desenvolvidas ao longo dos cursos Praticando Java da plataforma Alura. O objetivo deste projeto é registrar meu aprendizado e evolução nos principais conceitos da linguagem Java, que vão desde a sintaxe básica e lógica de programação até os pilares da Orientação a Objetos.
 
-**Cursos incluídos**:
+### ▸ Estrutura do Repositório
 
-- **Praticando Java: variáveis e tipos**
-- **Praticando Java: condicionais if e else**
-- **Praticando Java: laços for e while**
-- **Praticando Java: data e hora**
-- **Praticando Java: orientação a objetos com classes, atributos e métodos**
+Cada curso possui sua própria pasta. Dentro de cada pasta estão as atividades desenvolvidas durante as aulas, acompanhadas de um README com a descrição do exercício.
 
-**Estrutura do repositório**:
+#### 1️⃣ [Variáveis e Tipos](./01-variaveis-e-tipos)
+Exercícios focados em variáveis, tipos de dados, operações matemáticas e conversões em Java.
 
-- Cada curso possui uma pasta de nível superior com o nome do módulo (por exemplo `01-variaveis-e-tipos`).
-- Dentro de cada curso há pastas `atividade-*` contendo os arquivos Java e um `README.md` explicando o exercício.
-- Os arquivos Java usam packages que espelham a organização das pastas (ex.: `variaveis_e_tipos.atividade_1`, `orientacao_a_objetos.atividade_3`).
+#### 2️⃣ [Condicionais: if e else](./02-if-e-else)
+Prática de estruturas condicionais com if/else, operadores relacionais e lógicos para controle de fluxo.
 
-**Como executar um exercício (exemplo)**:
+#### 3️⃣ [Laços: for e while](./03-for-e-while)
+Uso de laços for, while e do-while, aplicando break/continue e lógica de repetição em problemas.
 
-1. Compile o arquivo (coloque os .class em uma pasta `bin`):
+#### 4️⃣ [Data e Hora](./04-data-e-hora)
+Manipulação de datas e horários com LocalDate, LocalTime e DateTimeFormatter, incluindo cálculos e formatações.
 
-```bash
-javac -d bin 01-variaveis-e-tipos/atividade-1/DeclarandoValores.java
-```
-
-2. Execute a classe informando o package completo:
-
-```bash
-java -cp bin variaveis_e_tipos.atividade_1.DeclarandoValores
-```
-
-Observações:
-
-- Para compilar/executar múltiplas classes, compile a pasta inteira do exercício com `javac -d bin <pasta>/**/*.java` (ou use um wildcard adequado ao seu shell) e execute a classe `main` desejada com seu package.
-- Se estiver usando uma IDE (Eclipse, IntelliJ, VS Code), abra o diretório raiz do repositório como projeto Java para compilar e executar diretamente.
-
-**Contribuições e uso pessoal**:
-
-- Este repositório é um registro pessoal de estudos. Pode ser usado como referência por outras pessoas, mas não há garantia de cobertura completa ou arquitetura de produção.
-- Sugestões são bem-vindas — abra issues ou PRs caso tenha melhorias ou correções.
-
-**Licença**
-
-- Sinta-se à vontade para adicionar uma licença se desejar (por exemplo, `MIT`) — por enquanto este repositório está sem licença explícita.
-
-Arquivo criado automaticamente para organizar os exercícios e instruções básicas.
+#### 5️⃣ [Orientação a Objetos](./05-orientacao-a-objetos)
+Criação de classes, atributos e métodos para representar entidades e encapsular lógicas em Java.
